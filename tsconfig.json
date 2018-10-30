@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "scaffolding-detail": [
+        "dist/scaffolding-detail"
+      ],
+      "scaffolding-detail/*": [
+        "dist/scaffolding-detail/*"
+      ]
+    }
   }
 }
